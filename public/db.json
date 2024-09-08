@@ -1,0 +1,793 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Understanding CSS Flexbox",
+      "description": "A comprehensive guide to mastering CSS Flexbox layout. Learn how to create responsive and flexible web layouts with ease.",
+      "image_source": "https://example.com/images/css-flexbox.jpg",
+      "user_id": 101,
+      "categories": [
+        1,
+        3
+      ],
+      "author": "Jane Doe",
+      "date": "2024-08-15",
+      "tags": [
+        "CSS",
+        "Flexbox",
+        "Web Design"
+      ],
+      "likes": 123,
+      "comments": 45,
+      "shareLink": "https://example.com/share/css-flexbox",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "John Smith",
+          "rating": 4,
+          "comment": "Great article on CSS Flexbox. Very helpful!"
+        },
+        {
+          "id": 2,
+          "author": "Alice Johnson",
+          "rating": 5,
+          "comment": "A must-read for anyone working with Flexbox!"
+        }
+      ],
+      "content": "This article provides a detailed explanation of CSS Flexbox, including its layout capabilities and how to use it effectively. It covers the fundamentals, such as flex containers and items, and advanced techniques for creating complex layouts. To learn, start with the basics of flex direction and wrapping, then progress to alignments and justifications. Practical examples and exercises are included to help you master Flexbox and apply it to responsive web design projects."
+    },
+    {
+      "id": "2",
+      "title": "JavaScript ES6 Features You Should Know",
+      "description": "Explore the new features of JavaScript ES6 that enhance your development experience, including arrow functions, promises, and template literals.",
+      "image_source": "https://example.com/images/javascript-es6.jpg",
+      "user_id": 102,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Michael Lee",
+      "date": "2024-08-14",
+      "tags": [
+        "JavaScript",
+        "ES6",
+        "Programming"
+      ],
+      "likes": 98,
+      "comments": 32,
+      "shareLink": "https://example.com/share/javascript-es6",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Emily Davis",
+          "rating": 5,
+          "comment": "Fantastic overview of ES6 features!"
+        },
+        {
+          "id": 2,
+          "author": "Chris Martin",
+          "rating": 4,
+          "comment": "Very informative, but could use more examples."
+        }
+      ],
+      "content": "This article delves into the new features introduced in JavaScript ES6, such as arrow functions, template literals, destructuring, and promises. It explains how these features simplify code and improve development efficiency. To learn ES6, follow a structured approach: start with basic syntax changes, explore advanced features like modules and promises, and practice with real-world examples. This will enhance your understanding and ability to use ES6 in modern JavaScript applications."
+    },
+    {
+      "id": "3",
+      "title": "Building Responsive Web Designs",
+      "description": "Learn how to create websites that look great on all devices using responsive design principles and media queries.",
+      "image_source": "https://example.com/images/responsive-design.jpg",
+      "user_id": 103,
+      "categories": [
+        3
+      ],
+      "author": "Sarah White",
+      "date": "2024-08-13",
+      "tags": [
+        "Web Design",
+        "Responsive Design"
+      ],
+      "likes": 76,
+      "comments": 20,
+      "shareLink": "https://example.com/share/responsive-design",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Lucas Green",
+          "rating": 4,
+          "comment": "Good tips for responsive design."
+        },
+        {
+          "id": 2,
+          "author": "Olivia Brown",
+          "rating": 5,
+          "comment": "Extremely useful for modern web development."
+        }
+      ],
+      "content": "This guide covers the essentials of building responsive web designs, including the use of media queries, flexible grids, and responsive images. It explains how to create layouts that adapt to various screen sizes, ensuring a seamless user experience on mobile, tablet, and desktop devices. To get started, familiarize yourself with CSS media queries and flexible box layouts, then practice by designing responsive mockups and testing them across different devices."
+    },
+    {
+      "id": "4",
+      "title": "Introduction to React Hooks",
+      "description": "Discover how React Hooks can simplify your React components and manage state and side effects more effectively.",
+      "image_source": "https://example.com/images/react-hooks.jpg",
+      "user_id": 104,
+      "categories": [
+        4
+      ],
+      "author": "James Wilson",
+      "date": "2024-08-12",
+      "tags": [
+        "React",
+        "Hooks",
+        "JavaScript"
+      ],
+      "likes": 132,
+      "comments": 50,
+      "shareLink": "https://example.com/share/react-hooks",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Emma Thomas",
+          "rating": 5,
+          "comment": "A great introduction to React Hooks!"
+        },
+        {
+          "id": 2,
+          "author": "Noah Harris",
+          "rating": 4,
+          "comment": "Helpful, but some sections were too basic."
+        }
+      ],
+      "content": "This article introduces React Hooks, a feature that allows you to use state and other React features without writing a class. It covers essential hooks like `useState` and `useEffect`, and how they simplify state management and side effects in functional components. To learn React Hooks, start by experimenting with `useState` for managing state and `useEffect` for handling side effects. Explore additional hooks and build simple applications to deepen your understanding."
+    },
+    {
+      "id": "5",
+      "title": "Optimizing Web Performance",
+      "description": "Tips and techniques for improving the performance of your web applications, including lazy loading, code splitting, and image optimization.",
+      "image_source": "https://example.com/images/web-performance.jpg",
+      "user_id": 105,
+      "categories": [
+        5,
+        6
+      ],
+      "author": "Sophia Anderson",
+      "date": "2024-08-11",
+      "tags": [
+        "Web Performance",
+        "Optimization"
+      ],
+      "likes": 154,
+      "comments": 60,
+      "shareLink": "https://example.com/share/web-performance",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Benjamin Scott",
+          "rating": 5,
+          "comment": "Excellent strategies for boosting web performance."
+        },
+        {
+          "id": 2,
+          "author": "Mia Johnson",
+          "rating": 4,
+          "comment": "Very useful tips, especially on lazy loading."
+        }
+      ],
+      "content": "This article provides strategies for optimizing web performance, focusing on techniques like lazy loading, code splitting, and image optimization. Learn how to reduce load times, enhance responsiveness, and improve user experience. To implement these techniques, start by analyzing your site's performance with tools like Lighthouse, then apply best practices for lazy loading assets, splitting code into smaller chunks, and optimizing images. Regular performance audits will help maintain and enhance your site's speed."
+    },
+    {
+      "id": "6",
+      "title": "Mastering CSS Grid Layout",
+      "description": "An in-depth guide to using CSS Grid for creating complex and responsive web layouts with ease.",
+      "image_source": "https://example.com/images/css-grid.jpg",
+      "user_id": 106,
+      "categories": [
+        1,
+        3
+      ],
+      "author": "Liam Martinez",
+      "date": "2024-08-10",
+      "tags": [
+        "CSS",
+        "Grid Layout",
+        "Web Design"
+      ],
+      "likes": 110,
+      "comments": 37,
+      "shareLink": "https://example.com/share/css-grid",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Ava Martinez",
+          "rating": 5,
+          "comment": "Fantastic guide to CSS Grid!"
+        },
+        {
+          "id": 2,
+          "author": "Jacob Wilson",
+          "rating": 4,
+          "comment": "Very detailed, but a bit overwhelming."
+        }
+      ],
+      "content": "This guide offers a deep dive into CSS Grid Layout, a powerful tool for creating complex and responsive web layouts. It explains key concepts such as grid containers, items, lines, and areas, and how to use them to build sophisticated layouts. To master CSS Grid, start with basic grid structures and gradually explore advanced features like nested grids and grid templates. Practical examples and hands-on exercises will help solidify your understanding and application of CSS Grid."
+    },
+    {
+      "id": "7",
+      "title": "Effective Use of JavaScript Promises",
+      "description": "Understand how to use JavaScript Promises for better asynchronous code management and error handling.",
+      "image_source": "https://example.com/images/javascript-promises.jpg",
+      "user_id": 107,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Isabella Moore",
+      "date": "2024-08-09",
+      "tags": [
+        "JavaScript",
+        "Promises",
+        "Asynchronous"
+      ],
+      "likes": 95,
+      "comments": 25,
+      "shareLink": "https://example.com/share/javascript-promises",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Ethan Lee",
+          "rating": 4,
+          "comment": "Great explanation of Promises in JavaScript."
+        },
+        {
+          "id": 2,
+          "author": "Charlotte Clark",
+          "rating": 5,
+          "comment": "Very insightful and clear!"
+        }
+      ],
+      "content": "This article explains the concept of JavaScript Promises and how they help manage asynchronous operations more effectively. It covers the creation, chaining, and error handling of promises. To learn about Promises, start with understanding their purpose in asynchronous programming, then practice creating and chaining promises with real-world examples. The article includes practical tips and best practices for integrating Promises into your code to handle async operations more robustly."
+    },
+    {
+      "id": "8",
+      "title": "Implementing Dark Mode in CSS",
+      "description": "Learn how to implement a dark mode theme on your website using CSS custom properties and media queries.",
+      "image_source": "https://example.com/images/dark-mode.jpg",
+      "user_id": 108,
+      "categories": [
+        1
+      ],
+      "author": "Mason Allen",
+      "date": "2024-08-08",
+      "tags": [
+        "CSS",
+        "Dark Mode",
+        "Theming"
+      ],
+      "likes": 88,
+      "comments": 22,
+      "shareLink": "https://example.com/share/dark-mode",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Aiden Young",
+          "rating": 4,
+          "comment": "Useful guide for adding dark mode."
+        },
+        {
+          "id": 2,
+          "author": "Harper Adams",
+          "rating": 5,
+          "comment": "Perfect for modern web design."
+        }
+      ],
+      "content": "This article guides you through implementing a dark mode theme on your website using CSS. It explains the use of CSS custom properties (variables) and media queries to create a dark theme that can be toggled based on user preferences or system settings. Learn the process of setting up dark mode, adjusting color schemes, and ensuring a seamless user experience. Practical examples are provided to help you apply dark mode to your web projects effectively."
+    },
+    {
+      "id": "9",
+      "title": "Introduction to TypeScript",
+      "description": "Explore TypeScript and how it can enhance your JavaScript code with static typing and other features.",
+      "image_source": "https://example.com/images/typescript.jpg",
+      "user_id": 109,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Ella Lewis",
+      "date": "2024-08-07",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Programming"
+      ],
+      "likes": 104,
+      "comments": 28,
+      "shareLink": "https://example.com/share/typescript",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Owen Lee",
+          "rating": 5,
+          "comment": "A great introduction to TypeScript!"
+        },
+        {
+          "id": 2,
+          "author": "Sophia Miller",
+          "rating": 4,
+          "comment": "Very informative, but some advanced topics were missing."
+        }
+      ],
+      "content": "This article provides an overview of TypeScript, a superset of JavaScript that introduces static typing and other advanced features. It explains how TypeScript can help you catch errors early, improve code quality, and enhance development productivity. To learn TypeScript, start with its basic types, then explore interfaces, classes, and generics. The article includes practical examples and guidance on integrating TypeScript into your existing JavaScript projects for improved maintainability."
+    },
+    {
+      "id": "10",
+      "title": "Creating Accessible Web Forms",
+      "description": "Best practices for designing web forms that are accessible to users with disabilities, including ARIA attributes and semantic HTML.",
+      "image_source": "https://example.com/images/accessible-forms.jpg",
+      "user_id": 110,
+      "categories": [
+        3
+      ],
+      "author": "William Scott",
+      "date": "2024-08-06",
+      "tags": [
+        "Accessibility",
+        "Web Forms",
+        "Design"
+      ],
+      "likes": 77,
+      "comments": 18,
+      "shareLink": "https://example.com/share/accessible-web-forms",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Lucas Harris",
+          "rating": 5,
+          "comment": "Very important topic, well covered."
+        },
+        {
+          "id": 2,
+          "author": "Mia White",
+          "rating": 4,
+          "comment": "Good information, but could use more examples."
+        }
+      ],
+      "content": "This article focuses on best practices for creating accessible web forms. It covers the use of ARIA attributes, semantic HTML, and accessible design principles to ensure forms are usable by individuals with disabilities. Learn how to implement proper labeling, error handling, and form navigation to improve accessibility. The guide provides practical tips and examples to help you design inclusive forms that meet accessibility standards and enhance user experience for all visitors."
+    },
+    {
+      "id": "11",
+      "title": "Advanced CSS Animations",
+      "description": "Explore advanced techniques for creating sophisticated animations in CSS, including keyframes and transitions.",
+      "image_source": "https://example.com/images/css-animations.jpg",
+      "user_id": 111,
+      "categories": [
+        1
+      ],
+      "author": "Natalie King",
+      "date": "2024-08-05",
+      "tags": [
+        "CSS",
+        "Animations",
+        "Web Design"
+      ],
+      "likes": 89,
+      "comments": 27,
+      "shareLink": "https://example.com/share/css-animations",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Derek Allen",
+          "rating": 5,
+          "comment": "A deep dive into CSS animations. Very useful!"
+        },
+        {
+          "id": 2,
+          "author": "Jasmine Lee",
+          "rating": 4,
+          "comment": "Great content, but a bit complex for beginners."
+        }
+      ],
+      "content": "This article delves into advanced CSS animations, focusing on techniques like keyframes and transitions to create sophisticated animations. It covers how to use `@keyframes` to define complex animation sequences and `transition` properties for smooth state changes. To learn these techniques, start by experimenting with basic animations, then explore more complex scenarios and effects. Practical examples are included to help you apply advanced animations in your web designs."
+    },
+    {
+      "id": "12",
+      "title": "JavaScript Array Methods",
+      "description": "Learn about various JavaScript array methods, including `map`, `filter`, and `reduce`, and how to use them effectively.",
+      "image_source": "https://example.com/images/javascript-arrays.jpg",
+      "user_id": 112,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Oliver Harris",
+      "date": "2024-08-04",
+      "tags": [
+        "JavaScript",
+        "Arrays",
+        "Programming"
+      ],
+      "likes": 102,
+      "comments": 31,
+      "shareLink": "https://example.com/share/javascript-arrays",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Sophia Adams",
+          "rating": 5,
+          "comment": "Very informative on JavaScript array methods."
+        },
+        {
+          "id": 2,
+          "author": "Liam Brown",
+          "rating": 4,
+          "comment": "Good examples, but could use more advanced techniques."
+        }
+      ],
+      "content": "This article provides an in-depth look at JavaScript array methods such as `map`, `filter`, and `reduce`. It explains how these methods can be used to manipulate and transform arrays efficiently. To learn, start with basic examples of each method, then explore more complex use cases and combinations. The article includes practical exercises to help you understand and apply these array methods in your JavaScript projects."
+    },
+    {
+      "id": "13",
+      "title": "Introduction to GraphQL",
+      "description": "Get started with GraphQL, a query language for APIs that provides a more flexible and efficient alternative to REST.",
+      "image_source": "https://example.com/images/graphql.jpg",
+      "user_id": 113,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Hannah Davis",
+      "date": "2024-08-03",
+      "tags": [
+        "GraphQL",
+        "APIs",
+        "Programming"
+      ],
+      "likes": 110,
+      "comments": 35,
+      "shareLink": "https://example.com/share/graphql",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Liam Davis",
+          "rating": 5,
+          "comment": "An excellent introduction to GraphQL."
+        },
+        {
+          "id": 2,
+          "author": "Nora Wilson",
+          "rating": 4,
+          "comment": "Good overview, but could use more examples."
+        }
+      ],
+      "content": "This article introduces GraphQL, a powerful query language for APIs that offers a more flexible and efficient alternative to REST. It covers the basics of GraphQL schema, queries, mutations, and how to set up a GraphQL server. To get started, learn the core concepts and syntax of GraphQL, then practice creating queries and mutations with sample data. The article provides practical examples and guidance for integrating GraphQL into your applications."
+    },
+    {
+      "id": "14",
+      "title": "Web Accessibility Basics",
+      "description": "An overview of fundamental principles and practices for making websites accessible to all users, including those with disabilities.",
+      "image_source": "https://example.com/images/web-accessibility.jpg",
+      "user_id": 114,
+      "categories": [
+        3
+      ],
+      "author": "Daniel Clark",
+      "date": "2024-08-02",
+      "tags": [
+        "Accessibility",
+        "Web Design",
+        "Standards"
+      ],
+      "likes": 84,
+      "comments": 24,
+      "shareLink": "https://example.com/share/web-accessibility",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Emily Martin",
+          "rating": 5,
+          "comment": "Essential reading for web designers."
+        },
+        {
+          "id": 2,
+          "author": "Aiden Harris",
+          "rating": 4,
+          "comment": "Good basics, but needs more practical examples."
+        }
+      ],
+      "content": "This article covers the basics of web accessibility, including principles and best practices for creating inclusive web experiences. It discusses important concepts such as semantic HTML, ARIA roles, and keyboard navigation. To learn about web accessibility, start by understanding the WCAG guidelines and apply them to your design and development process. The article includes practical tips and resources for ensuring your website is accessible to users with various disabilities."
+    },
+    {
+      "id": "15",
+      "title": "JavaScript Event Handling",
+      "description": "Learn how to handle events in JavaScript, including event listeners, event objects, and common use cases for interactivity.",
+      "image_source": "https://example.com/images/javascript-events.jpg",
+      "user_id": 115,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Mia Walker",
+      "date": "2024-08-01",
+      "tags": [
+        "JavaScript",
+        "Events",
+        "Programming"
+      ],
+      "likes": 92,
+      "comments": 30,
+      "shareLink": "https://example.com/share/javascript-events",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Lucas Martin",
+          "rating": 5,
+          "comment": "Very clear explanation of event handling."
+        },
+        {
+          "id": 2,
+          "author": "Olivia Brown",
+          "rating": 4,
+          "comment": "Helpful, but could include more advanced scenarios."
+        }
+      ],
+      "content": "This article explores JavaScript event handling, including how to use event listeners, understand event objects, and manage various events in your web applications. It covers common use cases such as click events, form submissions, and keyboard interactions. To learn event handling, start by experimenting with simple event listeners and progress to more complex scenarios involving event delegation and custom events. The article includes practical examples to help you implement effective event handling in your projects."
+    },
+    {
+      "id": "16",
+      "title": "Introduction to Node.js",
+      "description": "An introductory guide to Node.js, a runtime environment for executing JavaScript code on the server side.",
+      "image_source": "https://example.com/images/nodejs.jpg",
+      "user_id": 116,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Charlotte Brown",
+      "date": "2024-07-31",
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "Backend"
+      ],
+      "likes": 115,
+      "comments": 40,
+      "shareLink": "https://example.com/share/nodejs",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Aidan Scott",
+          "rating": 5,
+          "comment": "A great introduction to Node.js!"
+        },
+        {
+          "id": 2,
+          "author": "Emma White",
+          "rating": 4,
+          "comment": "Very informative, but could use more advanced topics."
+        }
+      ],
+      "content": "This article introduces Node.js, a runtime environment that allows you to execute JavaScript code on the server side. It covers basic concepts such as the event loop, modules, and npm packages. To get started with Node.js, install it on your system, explore its core modules, and practice building simple server applications. The article provides examples and resources to help you understand how Node.js can be used for backend development and server-side scripting."
+    },
+    {
+      "id": "17",
+      "title": "Creating Custom React Hooks",
+      "description": "Learn how to create custom React Hooks to encapsulate reusable logic and enhance your React applications.",
+      "image_source": "https://example.com/images/custom-react-hooks.jpg",
+      "user_id": 117,
+      "categories": [
+        4
+      ],
+      "author": "Lucas Anderson",
+      "date": "2024-07-30",
+      "tags": [
+        "React",
+        "Hooks",
+        "JavaScript"
+      ],
+      "likes": 122,
+      "comments": 29,
+      "shareLink": "https://example.com/share/custom-react-hooks",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Mia Green",
+          "rating": 5,
+          "comment": "Very helpful for advanced React development."
+        },
+        {
+          "id": 2,
+          "author": "William Adams",
+          "rating": 4,
+          "comment": "Great content, but needs more practical examples."
+        }
+      ],
+      "content": "This article explains how to create custom React Hooks, allowing you to encapsulate and reuse logic across your components. It covers the process of building custom hooks to handle state, side effects, and other reusable functionalities. To learn, start by understanding the basics of built-in hooks like `useState` and `useEffect`, then create your own hooks to solve specific problems or encapsulate logic. The article includes examples and best practices for integrating custom hooks into your React applications."
+    },
+    {
+      "id": "18",
+      "title": "Using CSS Variables for Theming",
+      "description": "Discover how to use CSS variables to create dynamic and easily customizable themes for your website.",
+      "image_source": "https://example.com/images/css-variables.jpg",
+      "user_id": 118,
+      "categories": [
+        1
+      ],
+      "author": "Ella Thompson",
+      "date": "2024-07-29",
+      "tags": [
+        "CSS",
+        "Variables",
+        "Theming"
+      ],
+      "likes": 91,
+      "comments": 23,
+      "shareLink": "https://example.com/share/css-variables",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Daniel Martinez",
+          "rating": 5,
+          "comment": "Excellent guide on using CSS variables."
+        },
+        {
+          "id": 2,
+          "author": "Olivia Roberts",
+          "rating": 4,
+          "comment": "Very informative, but a bit complex for beginners."
+        }
+      ],
+      "content": "This article explores the use of CSS variables to create dynamic and customizable themes for your website. It covers how to define and use CSS variables for colors, fonts, and other properties, making it easy to switch themes or adjust styles. To learn, start by defining basic variables and applying them to your CSS rules. Experiment with creating and switching themes using CSS variables to enhance the flexibility and maintainability of your stylesheets."
+    },
+    {
+      "id": "19",
+      "title": "Handling Errors in JavaScript",
+      "description": "Techniques for effectively managing errors in JavaScript, including try-catch blocks and error objects.",
+      "image_source": "https://example.com/images/javascript-errors.jpg",
+      "user_id": 119,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "James Harris",
+      "date": "2024-07-28",
+      "tags": [
+        "JavaScript",
+        "Errors",
+        "Programming"
+      ],
+      "likes": 105,
+      "comments": 34,
+      "shareLink": "https://example.com/share/javascript-errors",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Nora Taylor",
+          "rating": 5,
+          "comment": "Great overview of error handling in JavaScript."
+        },
+        {
+          "id": 2,
+          "author": "Liam Scott",
+          "rating": 4,
+          "comment": "Helpful tips, but could use more advanced examples."
+        }
+      ],
+      "content": "This article discusses techniques for handling errors in JavaScript, focusing on `try-catch` blocks, error objects, and best practices for error management. It explains how to catch and handle exceptions to prevent your application from crashing and provide better error feedback to users. To learn, start by practicing with basic error handling scenarios, then explore more advanced techniques such as custom error handling and asynchronous error management."
+    },
+    {
+      "id": "20",
+      "title": "Responsive Typography with CSS",
+      "description": "Learn how to create responsive typography that adjusts seamlessly across different screen sizes and devices using CSS.",
+      "image_source": "https://example.com/images/responsive-typography.jpg",
+      "user_id": 120,
+      "categories": [
+        1,
+        3
+      ],
+      "author": "Ava Wilson",
+      "date": "2024-07-27",
+      "tags": [
+        "CSS",
+        "Typography",
+        "Responsive Design"
+      ],
+      "likes": 87,
+      "comments": 26,
+      "shareLink": "https://example.com/share/responsive-typography",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Ethan Davis",
+          "rating": 5,
+          "comment": "Very useful tips for responsive typography."
+        },
+        {
+          "id": 2,
+          "author": "Charlotte Martin",
+          "rating": 4,
+          "comment": "Good overview, but could use more examples."
+        }
+      ],
+      "content": "This article covers techniques for creating responsive typography with CSS, ensuring text looks great on all devices. It explains how to use relative units like `em` and `rem`, viewport units, and media queries to adjust font sizes dynamically. To master responsive typography, experiment with different units and breakpoints, and test your designs across various devices. The article provides practical examples to help you achieve optimal text readability and design consistency."
+    },
+    {
+      "id": "21",
+      "title": "Building RESTful APIs with Express.js",
+      "description": "A guide to creating RESTful APIs using Express.js, a popular framework for Node.js, including routing and middleware.",
+      "image_source": "https://example.com/images/expressjs.jpg",
+      "user_id": 121,
+      "categories": [
+        2,
+        7
+      ],
+      "author": "Ethan Lee",
+      "date": "2024-07-26",
+      "tags": [
+        "Express.js",
+        "Node.js",
+        "APIs"
+      ],
+      "likes": 98,
+      "comments": 33,
+      "shareLink": "https://example.com/share/expressjs",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Liam White",
+          "rating": 5,
+          "comment": "Very informative guide to Express.js!"
+        },
+        {
+          "id": 2,
+          "author": "Emma Scott",
+          "rating": 4,
+          "comment": "Great content, but could use more advanced topics."
+        }
+      ],
+      "content": "This article provides a comprehensive guide to building RESTful APIs with Express.js, a popular framework for Node.js. It covers fundamental concepts such as routing, middleware, and handling HTTP requests and responses. To get started, set up an Express.js project, create routes, and add middleware for request processing. The article includes examples and best practices for designing and implementing efficient APIs using Express.js."
+    },
+    {
+      "id": "7d40",
+      "title": "fatma mohamed",
+      "description": "fsafsafasf",
+      "imageUrl": "http://localhost:5173/AddPost",
+      "categories": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZDcyMmRhMWVmZGE2ZjU4MzAwMmMyZSIsImlhdCI6MTcyNTM4NjAyOCwiZXhwIjoxNzI3OTc4MDI4fQ.oUN8bY4cybV0PDKUFKmAKl7f2m8wu9PdpqGIhoxLFWs"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "CSS"
+    },
+    {
+      "id": "2",
+      "name": "JavaScript"
+    },
+    {
+      "id": "3",
+      "name": "Web Design"
+    },
+    {
+      "id": "4",
+      "name": "React"
+    },
+    {
+      "id": "5",
+      "name": "Web Performance"
+    },
+    {
+      "id": "6",
+      "name": "Optimization"
+    },
+    {
+      "id": "7",
+      "name": "Programming"
+    }
+  ]
+}

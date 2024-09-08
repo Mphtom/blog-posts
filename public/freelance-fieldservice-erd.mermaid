@@ -1,0 +1,57 @@
+erDiagram
+    USER {
+        int user_id PK
+        string username
+        string email
+        string password_hash
+        string user_type
+        date created_at
+    }
+    FREELANCER {
+        int freelancer_id PK
+        int user_id FK
+        string skills
+        text bio
+        decimal hourly_rate
+    }
+    CLIENT {
+        int client_id PK
+        int user_id FK
+        string company_name
+    }
+    SERVICE {
+        int service_id PK
+        string name
+        text description
+        int category_id FK
+    }
+    CATEGORY {
+        int category_id PK
+        string name
+    }
+    JOB {
+        int job_id PK
+        int client_id FK
+        int service_id FK
+        text description
+        decimal budget
+        date posted_date
+        string status
+    }
+    PROPOSAL {
+        int proposal_id PK
+        int job_id FK
+        int freelancer_id FK
+        decimal bid_amount
+        text cover_letter
+        date submitted_date
+        string status
+    }
+    
+    USER ||--o| FREELANCER : "can be"
+    USER ||--o| CLIENT : "can be"
+    CLIENT ||--o{ JOB : "posts"
+    SERVICE ||--o{ JOB : "belongs to"
+    CATEGORY ||--o{ SERVICE : "has"
+    JOB ||--o{ PROPOSAL : "receives"
+    FREELANCER ||--o{ PROPOSAL : "submits"
